@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">多屏互动组件测试</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="start_multi">启动多屏服务端程序</string>
+    <string name="stop_multi">停止多屏服务端服务</string>
+    <string name="find">客户端发现服务端</string>
+    <string name="connect">客户端连接服务端</string>
+    <string name="disconnect">客户端断开连接</string>
+    <string name="value">Content</string>
+    <string name="setcb">设置多屏互动组件监听</string>
+    <string name="start_multicli">启动多屏客户端程序</string>
+    <string name="stop_multicli">停止多屏客户端程序</string>
+    <string name="queryinfo">客户端请求信息</string>
+    <string name="execmd">客户端执行指令</string>
+    <string name="inputkeycode">客户端远程输入键值</string>
+    <string name="broadcast">服务端通知广播</string>
+</resources>

@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start_multi" />
+
+        <Button
+            android:id="@+id/button_startcli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start_multicli" />
+
+        <Button
+            android:id="@+id/button_setcb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setcb" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_find"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/find" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_connect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/connect" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_queryinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queryinfo" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_execmd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/execmd" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_inputkeycode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inputkeycode" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_broadcast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/broadcast" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_disconnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/disconnect" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_stopcli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stop_multicli" />
+
+        <Button
+            android:id="@+id/button_stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stop_multi" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+            android:text="@string/value" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
